@@ -3,7 +3,7 @@ import time
 from pathlib import Path
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
-from typing import Set, List, Optional
+from typing import Set
 
 from config import Config
 
