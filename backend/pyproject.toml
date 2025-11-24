@@ -1,7 +1,13 @@
 [project]
 name = "backend"
 version = "0.1.0"
-description = "Add your description here"
+description = "Locally hosted LLM environment"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fastapi>=0.121.3",
+    "loguru>=0.7.3",
+    "python-multipart>=0.0.20",
+    "smolagents>=1.23.0",
+    "uvicorn>=0.38.0",
+]
